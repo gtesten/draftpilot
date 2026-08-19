@@ -1,32 +1,21 @@
 # DraftPilot 2026
 
-Standalone fantasy football draft board for FERDA, DRE Digital, and Shaker Dynasty.
+GitHub-ready release based on DraftPilot version 28.
 
-## Features
-- Live pick recommendations
-- Snake, linear, and auction modes
-- Editable scoring, roster spots, benches, team names, and budgets
-- Shaker Dynasty contracted-player exclusions and deep free-agent pool
-- Named browser-saved draft sessions
-- Automatic save after draft/settings changes
-- JSON import/export backups
-- Installable PWA files
+## Included
+- FERDA, DRE Digital, and Shaker Dynasty presets
+- Shaker-only auction budgets and live nomination workflow
+- Live roster and remaining-needs tracking for all three leagues
+- Corrected Next Pick % risk model and color coding
+- Sticky Draft / Nominate action buttons
+- Recent picks, Last Action banner, Draft Mode, Undo, and two-click Reset
+- Browser auto-save, named draft sessions, and JSON import/export
+- PWA manifest and service worker
 
-## Publish for free on GitHub Pages
-1. Create a public GitHub repository named `draftpilot`.
-2. Upload all files/folders in this package to the repository root.
-3. Go to **Settings → Pages**.
-4. Set Source to **GitHub Actions**.
-5. Push/commit the files. The included workflow deploys the site automatically.
+## Publish the update
+Upload/replace `index.html`, `manifest.webmanifest`, `sw.js`, `.nojekyll`, and the `icons` folder in the root of your existing GitHub repository, then commit to `main`.
 
-## Install on iPhone/iPad
-Open the published site in Safari → Share → **Add to Home Screen**.
+If GitHub Pages is already set to **Deploy from a branch → main → /(root)**, the site republishes automatically.
 
-## Install on desktop
-Open the site in Chrome or Edge and choose the browser's **Install app** option when offered.
-
-## Moving drafts between devices
-Browser auto-save is device-specific. Use **Export JSON backup** on one device and **Import backup** on another.
-
-## Note
-DraftPilot does not automatically sync picks from Yahoo/ESPN. Mark picks or auction purchases manually as they happen.
+## After publishing
+Because DraftPilot uses a service worker, refresh the live site once after GitHub finishes deploying. If an installed app still shows the old version, fully close and reopen it. Existing named sessions use the same browser storage keys and should remain available on the same device.
