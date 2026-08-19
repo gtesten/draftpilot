@@ -1,0 +1,24 @@
+{
+  "name": "DraftPilot 2026 Fantasy Draft Board",
+  "short_name": "DraftPilot",
+  "description": "Live fantasy football draft board with FERDA, DRE Digital, and Shaker Dynasty presets.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#08111f",
+  "theme_color": "#08111f",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
