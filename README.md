@@ -28,3 +28,10 @@ Wait for GitHub Pages to finish, then refresh DraftPilot once. If the installed 
 
 ## NFL Intel freshness
 The NFL Intel area is an embedded Aug. 20, 2026 snapshot so the draft interface remains responsive. Refresh the depth charts, injury news, and associated value adjustments before important drafts when material NFL news changes.
+
+## v33
+
+- Adds direct links from NFL Intel to ESPN's full 2026 offensive depth charts.
+- Adds a direct link to ESPN's latest NFL injury report.
+- Keeps the embedded fantasy depth-chart snapshot lightweight for draft-night speed.
+- Includes QB1, RB1/RB2, WR1/WR2/WR3, and TE1/TE2 for all 32 teams.
