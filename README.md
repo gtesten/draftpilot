@@ -19,3 +19,11 @@ If GitHub Pages is already set to **Deploy from a branch → main → /(root)**,
 
 ## After publishing
 Because DraftPilot uses a service worker, refresh the live site once after GitHub finishes deploying. If an installed app still shows the old version, fully close and reopen it. Existing named sessions use the same browser storage keys and should remain available on the same device.
+
+
+## v30 NFL Intel + automatic board adjustments
+Adds a lightweight NFL Intel view with a current Aug. 19, 2026 ESPN fantasy depth-chart snapshot, curated fantasy-impact injury news, live source links, and injury badges on affected draft-board players. The snapshot is static by design to keep DraftPilot responsive during live drafts.
+
+
+### Automatic injury-value adjustments
+NFL Intel now carries lightweight ranking modifiers with material injury news. When the Intel snapshot is refreshed, related downgrades, beneficiary bumps, and season-ending redraft removals can be updated in the same data block. The feature is ON by default and can be toggled from the NFL Intel page.
