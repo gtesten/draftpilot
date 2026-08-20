@@ -35,3 +35,19 @@ The NFL Intel area is an embedded Aug. 20, 2026 snapshot so the draft interface 
 - Adds a direct link to ESPN's latest NFL injury report.
 - Keeps the embedded fantasy depth-chart snapshot lightweight for draft-night speed.
 - Includes QB1, RB1/RB2, WR1/WR2/WR3, and TE1/TE2 for all 32 teams.
+
+## v34 — Draft-night UI polish
+
+- Adds Compact / Comfortable player-table density.
+- Pins available My Guys beneath the recommendation area.
+- Color-codes roster needs for faster scanning.
+- Uses OUT / HIGH / WATCH injury severity badges.
+- Shows NFL Intel freshness beside rankings freshness.
+- Makes Top Available QB/RB/WR/TE cards clickable position filters.
+- Adds visible RB/WR/TE tier-break dividers.
+- Adds animated Draft/Nominate confirmation.
+- Adds Clear Search and a mobile bottom action bar.
+- Adds a mobile-friendly Back to Draft Board control from NFL Intel.
+- Removes the duplicate board-render function.
+- Preserves NFL Intel value adjustments, saved draft sessions, JSON backups,
+  Shaker auction tools, depth charts, injury links, and PWA support.
